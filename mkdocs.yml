@@ -1,0 +1,25 @@
+site_name: Effective TES3MP Lua
+repo_url: https://github.com/Resdayn-RP/effective-tes3mp-lua
+theme:
+    name: material
+    features:
+        - navigation.instant
+        - navigation.tracking
+        - navigation.expand
+        - content.code.annotate
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+nav:
+    - 'index.md'
+    - 'structure.md'
+    - 'functions.md'
+    - 'events.md'
+    - 'tables.md'
+    - 'variables.md'
+    - 'conditionals.md'
