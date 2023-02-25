@@ -1,4 +1,4 @@
-# Foreward
+# Foreword
 
 This is an attempt to standardise the strategies and styles for writing Lua code. By attempting to standardise these strategies/styles, we gain the clean and efficient code that can be easier for people to read and debug.
 
