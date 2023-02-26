@@ -92,7 +92,7 @@ Always use [lua-language-server annotation](https://github.com/sumneko/lua-langu
 ## Nesting
 Never nest if possible. Do not exceed 4 levels of indentation. Use guard clauses where applicable. Nesting code makes the code dificult to read, it also makes it seem as if it is doing multiple things.
 
-```lua name="BAD"
+```lua title="BAD"
     function core.getFullName(first, last)
         if first and last then
             return first .. last
@@ -102,7 +102,7 @@ Never nest if possible. Do not exceed 4 levels of indentation. Use guard clauses
     end
 ```
 
-```lua name="GOOD"
+```lua title="GOOD"
     function core.getFullName(first, last)
         if not (first and last) then return end
         return first .. last
