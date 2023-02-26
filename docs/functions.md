@@ -90,7 +90,7 @@ Always use [lua-language-server annotation](https://github.com/sumneko/lua-langu
 ```
 
 ## Nesting
-Never nest if possible. Do not exceed 4 levels of indentation. Use guard clauses where applicable. Nesting code makes the code dificult to read, it also makes it seem as if it is doing multiple things.
+Never nest if possible. Do not exceed 4 levels of indentation. Use guard clauses where applicable. Nesting code makes the code dificult to read, it also makes it seem as if it is doing multiple things. 
 
 ```lua title="BAD"
     function core.getFullName(first, last)
