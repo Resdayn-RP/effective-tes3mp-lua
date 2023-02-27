@@ -39,3 +39,16 @@ It is not efficient/performant, you should only use this when you need to insert
 ```lua title="GOOD"
     myTable["key"] = "value"
 ```
+
+## Use numeric for loops when iterating over an array
+It's a performance boost
+```lua title="BAD"
+    for k, v in pairs(myArray) do
+        print(k .. " " .. v)
+    end
+```
+```lua title="GOOD"
+    for i=1, #myArray do
+        print(i .. " " .. myArray[i])
+    end
+```
